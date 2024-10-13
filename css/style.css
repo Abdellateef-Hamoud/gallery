@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Quicksand", sans-serif;
+  }
+.container{
+    width:100% ;
+    height: auto;
+}
+
+.sidebar{
+    height: 100vh;
+    width: 30%;
+    color: white;
+    text-align: center;
+    background-color:#006599;
+    float: left;
+    position: fixed;
+}
+
+.sidebar-header{
+    margin: 35px 0px;
+
+}
+
+.sidebar-header h1{
+    font-weight: 800;
+    font-size :38px ;
+    margin-top: 8px ;
+}
+
+ .sidebar-body-list{
+    list-style: none;
+    
+}
+.sidebar-body-list li{
+    margin: 45px;
+    list-style: none;
+   
+}
+.sidebar-body-list li a{
+    text-decoration: none;
+    color: white;
+    font-size:  24px;;
+    font-weight: 800 ;
+    text-transform: capitalize;
+    display: block;
+    margin: 0px 0px 40px 0px;
+}
+.sidebar-body-list a:hover{
+color:#f4ef5e;
+}
+.right{ 
+    /* background-color:rgb(236, 23, 23); */
+     height: auto;
+    width: 70%;
+    margin-left: 30%;
+    
+    
+}
+.right .img1 img{
+    width: 100%;
+    height: 100%;
+
+}
+.content-right{
+    width: 85%;
+    height: 500vh;
+    /* background-color: #f4ef5e; */
+    margin-left: 90px;
+}
+.welcome h2{
+    font-weight: 400;
+    font-size: 60px;
+    margin-top: 100px;
+    color: #006599;
+
+}
+.welcome p{
+    margin-top: 40px;
+    font-size: 22px;
+    line-height: 2;
+    word-spacing: 1;
+    color: #373A3C;
+    font-weight: 200;
+
+}
+.about{
+display: flex;
+margin-top: 100px;
+}
+
+.about .c1{
+    margin-left: 20px;
+}
+.about .c1 h2{
+   font-weight: 400;
+    font-size: 60px;
+    color: #006599;
+} 
+.about .c1 p{
+    margin-top: 30px;
+    font-size: 22px;
+    line-height: 2;
+    word-spacing: 1;
+    color: #373A3C;
+    font-weight: 200;
+}
+.about .img2 img{
+    margin-top: 30px;
+}
+.about .c1 button{
+    width: 150px;
+    height: 50px;
+    background-color: #006599;
+    margin-top: 20px;
+    color: #FFFFFF;
+    border-style: none;
+    font-size: 20px;
+
+}
+.gallery-one .img-gahhery-one{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.gallery-one .img-gahhery-one img{
+    width: 160px;
+    height: 160px;
+}
+.gallery-one h2{
+    font-weight: 300;
+    font-size: 50px;
+    margin-top: 100px;
+    color: #006599;
+    margin-bottom: 30px;
+
+}
+
+.second-gallery .img-second-gallery{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.second-gallery .img-second-gallery img{
+    width: 250px;
+    height: 170px;
+}
+.second-gallery h2{
+    font-weight: 300;
+    font-size: 50px;
+    margin-top: 100px;
+    color: #006599;
+    margin-bottom: 30px;
+
+}
+
+.third-gallery .img-third-gallery{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.third-gallery .img-third-gallery img{
+    width: 200px;
+    height: 200px;
+}
+.third-gallery h2{
+    font-weight: 300;
+    font-size: 50px;
+    margin-top: 100px;
+    color: #006599;
+    margin-bottom: 30px;
+
+}
+.contact{
+    margin-top: 40px;
+}
+.contact h2{
+    font-weight: 300;
+    font-size: 50px;
+    margin-top: 100px;
+    color: #006599;
+    margin-bottom: 30px;
+
+}
+.contact input{
+    display: block;
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    /* border-color: #0a6697; */
+}
+.contact button{
+    width: 150px;
+    height: 50px;
+    background-color: #006599;
+    color: #FFFFFF;
+    border-style: none;
+    font-size: 20px;
+}
+ .contact .left-contact form  textarea{
+    border:1px solid #006599;
+}
+.contact .left-contact form input{
+    border:1px solid #006599;
+}
+.contact .left-contact form input::placeholder,.contact .left-contact form  textarea::placeholder{
+    color: #006599;
+}
+
+.contact .left-contact form  textarea::placeholder{
+    color: rgb(8, 119, 174);
+    font-size: 16px;
+    font-weight: 100;
+}
+.contact .left-contact form  input::placeholder{
+    color: rgb(8, 119, 174);
+    font-size: 16px;
+}
+.contact .left-contact form input{
+    font-size: 16px;
+    padding-left: 10px;
+}
+.contact .left-contact form textarea{
+    font-size: 16px;
+    padding-left: 10px;
+}
+.content-contact{
+    display: flex;
+   
+}
+.right-contact{
+    height: 400px;
+    margin-left: 30px;
+    line-height: 2;
+    word-spacing: 1.4;
+    font-size: 22px;
+    font-weight: 100;
+}
+textarea {
+    resize: none;
+  }
+.footer{
+font-size: 22px;
+margin-top: 40px;
+font-weight: 200;
+  }
